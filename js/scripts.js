@@ -65,12 +65,14 @@
             if (val > max) {
                 val = max;
                 $thisInput.val(val);
+                alert("use maximum " + max + " value for this field");
             }
 
             // Min Validation
             if (val < min) {
                 val = min;
                 $thisInput.val(val);
+                alert("use minimum " + min + " value for this field");
             }
 
             // Background Change
